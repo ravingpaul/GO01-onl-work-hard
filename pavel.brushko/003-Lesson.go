@@ -7,9 +7,8 @@ import (
 var digit int
 
 func main() {
-
-	fmt.Scan("%d", &digit)
-	fmt.Println("Please input the digit", digit)
+	fmt.Println("Please input the digit")
+	fmt.Scan(&digit)
 	fmt.Println("Yor digit is ", digit)
 	first()
 }
