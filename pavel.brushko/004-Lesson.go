@@ -34,7 +34,7 @@ func task1() {
 	} else if number < 4 {
 		fmt.Println("Fourth")
 	} else {
-		fmt.Println("Check the nuber you were inputed")
+		fmt.Println("Check the number you were inputed")
 	}
 }
 
